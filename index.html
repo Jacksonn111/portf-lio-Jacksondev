@@ -4,22 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jackson Dev | Portfólio</title>
+
   <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-  <header>
+  <!-- HEADER -->
+  <header class="header">
     <div class="logo">Jackson<span>Dev</span></div>
 
-    <nav>
+    <nav class="nav" id="nav">
       <a href="#inicio">Início</a>
       <a href="#projetos">Projetos</a>
       <a href="#sobre">Sobre</a>
       <a href="#contato">Contato</a>
     </nav>
+
+    <!-- BOTÃO MOBILE -->
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
   </header>
 
+  <!-- HERO -->
   <section class="hero" id="inicio">
     <div class="hero-content">
       <h1>Desenvolvedor Front-End</h1>
@@ -27,21 +37,20 @@
       <p>
         Criando sites modernos, responsivos e com design profissional.
       </p>
-
-      
     </div>
   </section>
 
+  <!-- PROJETOS -->
   <section class="projetos" id="projetos">
     <h2>Meus Projetos</h2>
 
     <div class="cards">
 
-        <div class="card">
-        <img src="sportzone.jpeg" alt="SPORTZONE ">
+      <div class="card">
+        <img src="sportzone.jpeg" alt="SPORTZONE">
 
         <div class="card-content">
-          <h3>SPORTZONE ⚽ </h3>
+          <h3>SPORTZONE ⚽</h3>
 
           <p>
             SPORTZONE é um portal esportivo moderno desenvolvido com HTML, CSS e JavaScript, com notícias, resultados e efeitos interativos inspirado em grandes sites de esportes.
@@ -54,30 +63,28 @@
       </div>
 
     </div>
-    
   </section>
 
+  <!-- SOBRE -->
   <section class="sobre" id="sobre">
     <div class="sobre-box">
       <h2>Sobre Mim</h2>
 
       <p>
-        Meu nome é Jackson, tenho 17 anos e estou aprendendo
-        desenvolvimento web.
+        Meu nome é Jackson, tenho 17 anos e estou aprendendo desenvolvimento web.
       </p>
 
       <p>
-        Atualmente estudo HTML, CSS e JavaScript enquanto desenvolvo
-        projetos para melhorar minhas habilidades como programador.
+        Atualmente estudo HTML, CSS e JavaScript enquanto desenvolvo projetos para melhorar minhas habilidades como programador.
       </p>
 
       <p>
-        Meu objetivo é evoluir cada vez mais e criar sites modernos,
-        rápidos e profissionais.
+        Meu objetivo é evoluir cada vez mais e criar sites modernos, rápidos e profissionais.
       </p>
     </div>
   </section>
 
+  <!-- CONTATO -->
   <section class="contato" id="contato">
     <h2>Contato</h2>
 
@@ -96,6 +103,7 @@
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer>
     <p>© 2026 - Desenvolvido por Jackson Dev</p>
   </footer>
