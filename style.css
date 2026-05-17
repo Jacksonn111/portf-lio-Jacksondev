@@ -373,3 +373,71 @@ footer {
     font-size: 32px;
   }
 }
+
+
+/* MELHORIAS RESPONSIVAS */
+
+@media(max-width: 768px) {
+
+  header {
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav a {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+    line-height: 1.1;
+  }
+
+  .hero p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .hero button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+
+  .news,
+  .games,
+  .contact {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .news h2,
+  .games h2,
+  .contact h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .game-box {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .contact-icons {
+    gap: 20px;
+  }
+
+  .contact-icons a {
+    width: 65px;
+    height: 65px;
+    font-size: 28px;
+  }
+}
